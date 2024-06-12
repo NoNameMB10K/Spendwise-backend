@@ -1,0 +1,16 @@
+nelmio_api_doc:
+    documentation:
+        info:
+            title: LigaAC API
+            description: Symfony API
+            version: 1.0.0
+        tags:
+            - name: "Products"
+              description: "Product related endpoints (CR)"
+            - name: "Categories"
+              description: "Category related endpoints (CRUD)"
+            - name: "Carts"
+              description: "Cart related endpoints (R)"
+    areas: # to filter documented areas
+        path_patterns:
+            - ^/(?!(_profiler|_wdt|_error|api/doc)|$)
